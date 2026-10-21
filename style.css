@@ -1,3 +1,23 @@
+.viewport-footer .github-link {
+    pointer-events: auto;
+    align-self: center;
+    padding: 5px 10px;
+    border: 1px solid #dce5d7;
+    border-radius: 6px;
+    background: #f5f9f0ed;
+    color: #466334;
+    text-decoration: none;
+    white-space: nowrap;
+    transition: background 0.15s, border-color 0.15s;
+}
+.viewport-footer .github-link:hover {
+    background: #eaf2e2;
+    border-color: #9ab97c;
+}
+.viewport-footer .github-link:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 3px;
+}
 .viewport-header .document-title .brand-wordmark {
     position: relative;
     display: flex;
